@@ -7,7 +7,7 @@ Threat intelligence has found that the aliens operate through a command and cont
 ## Solution
 
 As always, I exported the HTTP objects from the .pcap file, using Wireshark, by File → Export Objects → HTTP.
-Then I searched for ```HTB{``` in the exported files and found the flag in plain sight.
+Then I searched for ```HTB{``` in the exported files directory and found the flag in plain sight.
 
 ## Flag
 
