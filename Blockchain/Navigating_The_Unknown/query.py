@@ -1,16 +1,3 @@
-# Navigating the Unknown
-
-## Description
-
-Your advanced sensory systems make it easy for you to navigate familiar environments, but you must rely on intuition to navigate to the unknown territories. Through practice and training, you must learn to read subtle cues and become comfortable in unpredictable situations. Can you use software to find your way through the blocks?
-
-## Solution
-
-The following solution requires you to provide an .env file for the parameters ```RPC_URL```, ```PRIVATE_KEY```, ```ADDRESS```.
-
-The aforementioned parameters are provided by one of the given endpoints, so I had to ```nc``` both given addresses to find the correct one.
-
-```python
 from web3 import Web3
 from web3.auto.gethdev import w3
 from eth_account import Account
@@ -44,14 +31,3 @@ tx_hash = target_contract.functions.updateSensors(
 tx_receipt = web3.eth.wait_for_transaction_receipt(tx_hash)
 
 print(target_contract.functions.isSolved().call({'from': account.address}))
-```
-
-I used the solidity vscode extension to compile the contracts and get the needed information (abi, bytecode). I have already setup solidity for previous work, so I won't mention it in this solution.
-
-Now, after executing the script you can get the flag by the endpoint provided.
-
-## Flag
-
-```
-HTB{9P5_50FtW4R3_UPd4t3D}
-```
