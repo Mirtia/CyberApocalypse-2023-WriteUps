@@ -6,8 +6,8 @@ The iMoS is responsible for collecting and analyzing targeting data across vario
 
 ## Solution
 
-First of all, as always I exported the HTTP objects from the .pcap file using Wireshark by File → Export Objects → HTTP.
-Then I examined the files extracted. We can see that there is some obscure php code uploaded in one of the *map-update(x)* files.
+First of all, as always I exported the HTTP objects from the .pcap file, using Wireshark, by File → Export Objects → HTTP.
+Then I examined the files extracted. We can see that there is some obscure *php* code uploaded in one of the *map-update(x)* files.
 
 ```php
 -----------------------------310973569542634246533468492466
@@ -67,7 +67,7 @@ eval( $bhrTeZXazQ );
 -----------------------------310973569542634246533468492466--
 ```
 
-By replacing the eval with echo and running the script to an online *.php* [tester](https://onlinephp.io/) we get the following output:
+By replacing the eval with echo and running the script to an online *.php* [tester](https://onlinephp.io/) we get the following output.
 
 ```php
 ?><?php
@@ -216,7 +216,7 @@ echo "</table>";
 </html>
 ```
 
-where the flag is on plain sight.
+The flag is on plain sight.
 
 ## Flag
 
