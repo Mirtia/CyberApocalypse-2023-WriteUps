@@ -8,7 +8,7 @@ Your team has assigned you to a mission to investigate the production files of P
 
 The challenge was providing the following files:
 
-```bash
+```
 .
 |-- HadesMicro-B_Cu.gbr
 |-- HadesMicro-B_Fab.gbr
