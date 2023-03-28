@@ -8,7 +8,7 @@ The quantum data came back and analyzed. DISASTER! Our best scientists all agree
 
 We are given a `quantum_artifact.qasm` file, which contains language for describing quantum circuits. For some reason, an already existent python package that works with OpenQASM slipped my mind, so I imported the file to [IBM platform](https://cloud.ibm.com/catalog/services/qiskit-runtime) and run the program. I exported the results and examined the information.
 
-```json
+```
 ...
 success":true,
     "results":[
