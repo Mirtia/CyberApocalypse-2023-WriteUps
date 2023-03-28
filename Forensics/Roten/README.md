@@ -6,7 +6,7 @@ The iMoS is responsible for collecting and analyzing targeting data across vario
 
 ## Solution
 
-First of all, as always I exported the HTTP objects by File → Export Objects → HTTP.
+First of all, as always I exported the HTTP objects from the .pcap file using Wireshark by File → Export Objects → HTTP.
 Then I examined the files extracted. We can see that there is some obscure php code uploaded in one of the *mapping.php* files.
 
 ```php
