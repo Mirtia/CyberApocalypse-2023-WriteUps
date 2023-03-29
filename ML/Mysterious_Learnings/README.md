@@ -6,7 +6,7 @@ One day the archeologist came across a strange metal plate covered in uncommon h
 
 ## Solution
 
-See writeup.ipynb
+See [writeup.ipynb](./writeup.ipynb)
 
 ## Flag
 
