@@ -30,8 +30,8 @@ So, I dug up [this](https://www.pcbway.com/project/OnlineGerberViewer.html) Gerb
 
 By examining and isolating the layers in the layers view, you can find the two parts of the flag. The first one is on the **bottom copper** layer and the second is on the **inner copper** layer, as observed in the images below.
 
-<img src="img/bottom_copper.jpg" alt="Example Image" width="400"/>
-<img src="img/inner_copper.jpg" alt="Example Image" width="400"/>
+<img src="img/bottom_copper.jpg" alt="Bottom Copper" width="400"/>
+<img src="img/inner_copper.jpg" alt="Inner Copper" width="400"/>
 
 ## Flag
 
